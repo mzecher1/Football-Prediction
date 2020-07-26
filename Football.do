@@ -1,6 +1,6 @@
 *** Importing Data
 
-import excel "/Users/mendelzecher/NFL DATA.xlsx", sheet("Sheet1") firstrow
+import excel "NFL DATA 2019.xlsx", sheet("NFL DATA 2019") firstrow
 
 *** Renaming Variables 
 
