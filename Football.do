@@ -101,12 +101,12 @@ quietly by Team: gen dup = cond(_N==1,0,_n)
 drop if dup>1
 drop dup
 
-****Merge back in data  
+****Merge back in data 
 
-merge 1:m Team using  "/Users/mendelzecher/Documents/NFLMERGE#1.dta"
+merge 1:m Team using "NFL MERGE Week 9-17.dta"
 
 
-merge m:1 Opp using "/Users/mendelzecher/Documents/NFL Merge 3.dta", gen(merge_4)
+merge m:1 Opp using "NFL Merge TeamRank.dta", gen(merge_2)
 
  
 ***Spread Math 
